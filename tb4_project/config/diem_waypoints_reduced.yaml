@@ -1,0 +1,145 @@
+frame_id: map
+mode: search_target
+order_strategy: nearest_neighbor
+yaw_policy: from_previous_waypoint
+
+initial_pose: null
+
+waypoints:
+
+  - name: wp_05
+    x: -8.060
+    y: 0.160
+    type: transit
+    priority: 1.0
+    scan_angles: null
+
+  - name: wp_07
+    x: -8.788
+    y: -8.993
+    type: scan
+    priority: 1.0
+    scan_angles: [2.355, -1.57]
+    invert_scan_angles_from: [wp_09, wp_05, wp_08, wp_10, wp_12]
+
+  - name: wp_08
+    x: -3.146
+    y: -1.516
+    type: scan
+    priority: 0.5
+    scan_angles: [6.283]
+
+  - name: wp_09
+    x: -3.423
+    y: -7.700
+    type: scan
+    priority: 0.5
+    scan_angles: [6.283]
+
+  - name: wp_10
+    x: 3.026
+    y: -0.150
+    type: transit
+    priority: 0.5
+    scan_angles: null
+
+  - name: wp_11
+    x: 10.408
+    y: -0.150
+    type: transit
+    priority: 0.5
+    scan_angles: null
+
+  - name: wp_12
+    x: 3.026
+    y: -9.642
+    type: transit
+    priority: 0.5
+    scan_angles: null
+
+  - name: wp_13
+    x: 10.408
+    y: -9.831
+    type: transit
+    priority: 0.5
+    scan_angles: null
+
+  - name: wp_14
+    x: 17.315
+    y: 3.740
+    type: scan
+    priority: 0.5
+    scan_angles: [1.57, -3.14]
+
+  - name: wp_15
+    x: 17.154
+    y: -5.163
+    type: scan
+    priority: 0.5
+    scan_angles: [1.57, -1.57]
+
+  - name: wp_16
+    x: 17.423
+    y: -12.345
+    type: scan
+    priority: 0.5
+    scan_angles: [6.283]
+
+  - name: wp_17
+    x: 24.196
+    y: -0.466
+    type: transit
+    priority: 0.5
+    scan_angles: null
+
+  - name: wp_18
+    x: 31.460
+    y: -0.466
+    type: transit
+    priority: 0.5
+    scan_angles: null
+
+  - name: wp_19
+    x: 24.196
+    y: -10.033
+    type: transit
+    priority: 0.5
+    scan_angles: null
+
+  - name: wp_20
+    x: 32.025
+    y: -10.605
+    type: scan
+    priority: 0.5
+    scan_angles: [-2.355]
+    invert_scan_angles_from: [wp_18, wp_21, wp_22, wp_25]
+
+  - name: wp_21
+    x: 37.769
+    y: -2.364
+    type: scan
+    priority: 0.5
+    scan_angles: [6.283]
+
+  - name: wp_22
+    x: 37.603
+    y: -8.659
+    type: scan
+    priority: 0.5
+    scan_angles: [6.283]
+
+  - name: wp_23
+    x: 42.823
+    y: -1.381
+    type: scan
+    priority: 1.0
+    scan_angles: [-2.355]
+    invert_scan_angles_from: [wp_24]
+
+  - name: wp_25
+    x: 40.774
+    y: -10.754
+    type: transit
+    priority: 1.0
+    scan_angles: null
+

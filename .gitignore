@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ROS 2 / colcon
+build/
+install/
+log/
+.ros/
+*.bag
+*.db3
+*.mcap
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Local Codex/workspace metadata
+.agents/
+.codex/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Windows downloaded-file metadata
+*Zone.Identifier
+*:Zone.Identifier
+
+# Large local presentation/export artifacts
+*.ppt
+*.pptx
+*.odp
+*.key
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
